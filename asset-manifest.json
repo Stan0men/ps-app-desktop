@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/ps-app-desktop/static/css/main.31d6cfe0.css",
+    "main.js": "/ps-app-desktop/static/js/main.3e15b950.js",
+    "index.html": "/ps-app-desktop/index.html",
+    "main.3e15b950.js.map": "/ps-app-desktop/static/js/main.3e15b950.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.3e15b950.js"
+  ]
+}
