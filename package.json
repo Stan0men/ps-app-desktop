@@ -1,6 +1,7 @@
 {
-  "name": "ps-app",
+  "name": "ps-app-desktop",
   "version": "0.1.0",
+  "homepage": "https://stan0men.github.io/ps-app-desktop/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +16,9 @@
     "start": "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,7 @@
   "devDependencies": {
     "concurrently": "^8.2.0",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "less": "^4.1.3",
     "less-loader": "^11.1.3",
     "less-watch-compiler": "^1.16.3",
